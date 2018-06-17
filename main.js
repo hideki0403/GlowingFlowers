@@ -822,7 +822,7 @@ bot.on('messageCreate', (msg) => {
                                         name: 'Success!',
                                         icon_url: 'https://png.icons8.com/color/50/000000/ok.png'
                                     },
-                                    description: 'ふつうのタネを植えました！',
+                                    description: 'ふつうのタネを植えました！\nコメントの連投が許可されているチャンネルで草を生やしてみよう！',
                                     footer: {
                                         text: msg.author.username,
                                         icon_url: msg.author.avatarURL
@@ -921,7 +921,7 @@ bot.on('messageCreate', (msg) => {
                                                 name: 'Success!',
                                                 icon_url: 'https://png.icons8.com/color/50/000000/ok.png'
                                             },
-                                            description: 'すこし高級なタネを植えました！',
+                                            description: 'すこし高級なタネを植えました！\nコメントの連投が許可されているチャンネルで草を生やしてみよう！',
                                             footer: {
                                                 text: msg.author.username,
                                                 icon_url: msg.author.avatarURL
@@ -1017,7 +1017,7 @@ bot.on('messageCreate', (msg) => {
                                                 name: 'Success!',
                                                 icon_url: 'https://png.icons8.com/color/50/000000/ok.png'
                                             },
-                                            description: '最高級のタネを植えました！',
+                                            description: '最高級のタネを植えました！\nコメントの連投が許可されているチャンネルで草を生やしてみよう！',
                                             footer: {
                                                 text: msg.author.username,
                                                 icon_url: msg.author.avatarURL
@@ -1175,7 +1175,7 @@ bot.on('messageCreate', (msg) => {
                                     name: 'Success!',
                                     icon_url: 'https://png.icons8.com/color/50/000000/ok.png'
                                 },
-                                description: 'ふつうのタネを植えました！',
+                                description: 'ふつうのタネを植えました！\nコメントの連投が許可されているチャンネルで草を生やしてみよう！',
                                 footer: {
                                     text: msg.author.username,
                                     icon_url: msg.author.avatarURL
@@ -1274,7 +1274,7 @@ bot.on('messageCreate', (msg) => {
                                             name: 'Success!',
                                             icon_url: 'https://png.icons8.com/color/50/000000/ok.png'
                                         },
-                                        description: 'すこし高級なタネを植えました！',
+                                        description: 'すこし高級なタネを植えました！\nコメントの連投が許可されているチャンネルで草を生やしてみよう！',
                                         footer: {
                                             text: msg.author.username,
                                             icon_url: msg.author.avatarURL
@@ -1370,7 +1370,7 @@ bot.on('messageCreate', (msg) => {
                                             name: 'Success!',
                                             icon_url: 'https://png.icons8.com/color/50/000000/ok.png'
                                         },
-                                        description: '最高級のタネを植えました！',
+                                        description: '最高級のタネを植えました！\nコメントの連投が許可されているチャンネルで草を生やしてみよう！',
                                         footer: {
                                             text: msg.author.username,
                                             icon_url: msg.author.avatarURL
@@ -1877,7 +1877,7 @@ bot.on('messageCreate', (msg) => {
                             value: '\n' + hanaNow + '\n'
                         } , {
                             name: '花手帳',
-                            value: '\nコンプ率:**' + flwLists1.length + '/184**\n記録してきた花一覧（重複なし）:**' + flwList + '**\n'
+                            value: '\nコンプ率:**' + flwLists1.length + '/184 (' + (flwLists1.length / 184 * 100) + '%)**\n記録してきた花一覧（重複なし）:**' + flwList + '**\n'
                         }
                     ], 
                     footer: {
